@@ -7,6 +7,12 @@
     - Transforms the data into analytics tables using Spark
     - Loads them back into S3 as parquet files
 
+#### ETL pipeline
+The ETL pipeline `etl.py` uses Python and Spark SQL: 
+    - Extracts json files from s3
+    - Transforms them into PySpark DataFrames
+    - Loads them back into s3 as parquet files for analytical purposes
+
 #### Running the script
 
 ##### ETL-job
@@ -25,9 +31,3 @@ This s3-bucket is designed for analysing song plays from Sparkify app
     - `songs`  are songs from music metadata database
     - `artists` are artists from music metadata database
     - `time` are timestamps of records in songplays broken down into specific units
-    
-#### ETL pipeline
-The ETL pipeline `etl.py` uses Python and Spark SQL: 
-    - Extracts json files from s3
-    - Transforms them into PySpark DataFrames
-    - Loads them back into s3 as parquet files for analytical purposes 
