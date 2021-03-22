@@ -1,10 +1,7 @@
 # Project Summary
-- Launched a new AWS EMR cluster with Spark preinstalled
-- Created 1 fact and 4 dimension tables stored as parquet files in s3
-- Created an ETL pipeline that 
-    - Extracts data from S3
-    - Transforms the data into analytics tables using Spark
-    - Loads them back into S3 as parquet files
+- Launched an AWS EMR cluster with Spark preinstalled
+- Created an ETL pipeline with PySpark
+- Created 1 fact and 4 dimension tables stored as parquet files in S3
 
 #### ETL pipeline
 The ETL pipeline `etl.py` uses Python (PySpark) and Spark SQL:
@@ -18,9 +15,9 @@ The ETL pipeline `etl.py` uses Python (PySpark) and Spark SQL:
 - Open a new Ipython notebook and run the command
     - `%run etl.py`
 
-# aletje s3-bucket
+## Data for analytical puropses are loaded back into a separate S3-bucket
 #### Purpose
-This s3-bucket is designed for analysing song plays from Sparkify app
+The Parquet files that are loaded back into an S3 bucket are designed for analysing song plays from Sparkify app
 
 #### Schema design
 - Fact table 
