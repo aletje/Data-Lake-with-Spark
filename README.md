@@ -1,6 +1,5 @@
 # Project Summary
-- Created an AWS IAM role with Administrator Privileges
-- Launched a new EMR cluster
+- Launched a new AWS EMR cluster with Spark preinstalled
 - Created 1 fact and 4 dimension tables stored as parquet files in s3
 - Created an ETL pipeline that 
     - Extracts data from S3
@@ -8,7 +7,7 @@
     - Loads them back into S3 as parquet files
 
 #### ETL pipeline
-The ETL pipeline `etl.py` uses Python and Spark SQL: 
+The ETL pipeline `etl.py` uses Python (PySpark) and Spark SQL:
     - Extracts json files from s3
     - Transforms them into PySpark DataFrames
     - Loads them back into s3 as parquet files for analytical purposes
