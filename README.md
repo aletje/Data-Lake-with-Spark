@@ -8,9 +8,9 @@
 
 #### ETL pipeline
 The ETL pipeline `etl.py` uses Python (PySpark) and Spark SQL:
-    - Extracts json files from s3
-    - Transforms them into PySpark DataFrames
-    - Loads them back into s3 as parquet files for analytical purposes
+- Extracts json files from s3
+- Transforms them into PySpark DataFrames
+- Loads them back into s3 as parquet files for analytical purposes
 
 #### Running the script
 
