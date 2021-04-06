@@ -1,7 +1,8 @@
-# Project Summary
+# Summary
+### Sample project that illustrates the use of a Data Lake with Spark 
 - Launched an AWS EMR cluster with Spark preinstalled
 - Created an ETL pipeline with PySpark
-- Created 1 fact and 4 dimension tables stored as parquet files in S3
+- Created 1 fact and 4 dimension tables loaded back into S3 as parquet files
 
 #### ETL pipeline
 The ETL pipeline `etl.py` uses Python (PySpark) and Spark SQL:
