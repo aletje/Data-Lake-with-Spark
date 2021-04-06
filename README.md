@@ -1,5 +1,5 @@
 # Summary
-### Sample project that illustrates the use of a Data Lake with Spark 
+### Sample project building a Data Lake with Spark with data from `http://millionsongdataset.com/`
 - Launched an AWS EMR cluster with Spark preinstalled
 - Created an ETL pipeline with PySpark
 - Created 1 fact and 4 dimension tables loaded back into S3 as parquet files
