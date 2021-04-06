@@ -1,10 +1,14 @@
 ## Sample project building a Data Lake with Spark
 - Launched an AWS EMR cluster with Spark preinstalled
 - Created an ETL pipeline with PySpark
-- Created 1 fact and 4 dimension tables loaded back into S3 as parquet files. <br> <br>
-The `Song metadata` is a subset originally from `http://millionsongdataset.com/`. <br>
-The `Log data` set is simulating user activity on a fictional music streaming app called 'Sparkify'. <br> 
-Both datasets resides in Udacity's S3 buckets found here: `s3://udacity-dend/log_data` and `s3://udacity-dend/song_data`. 
+- Created 1 fact and 4 dimension tables loaded back into S3 as parquet files.
+
+#### Notes
+- The `Song metadata` is a subset originally from `http://millionsongdataset.com/`.
+- The `Log data` set is simulating user activity on a fictional music streaming app called Sparkify.
+- Both datasets resides in Udacity's S3 buckets and can be found here: 
+	- `s3://udacity-dend/log_data` 
+	- `s3://udacity-dend/song_data`
 
 #### ETL pipeline
 The ETL pipeline `etl.py` uses Python (PySpark) and Spark SQL:
