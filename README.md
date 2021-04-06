@@ -31,3 +31,4 @@ The Parquet files that are loaded back into an S3 bucket are designed for analys
     - `songs`  are songs from song metadata database
     - `artists` are artists from song metadata database
     - `time` are timestamps of records in songplays broken down into specific units
+![Star schema](https://github.com/aletje/Data-Lake-with-Spark/blob/main/starschema.png "star schema")
