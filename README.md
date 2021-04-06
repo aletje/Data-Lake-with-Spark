@@ -1,5 +1,6 @@
 # Summary
-### Sample project building a Data Lake with Spark with data from `http://millionsongdataset.com/`
+### Sample project building a Data Lake with Spark
+#### Using a subset originally from `http://millionsongdataset.com/` residing in Udacity's S3-bucket
 - Launched an AWS EMR cluster with Spark preinstalled
 - Created an ETL pipeline with PySpark
 - Created 1 fact and 4 dimension tables loaded back into S3 as parquet files
