@@ -1,4 +1,6 @@
-## Sample project building a Data Lake with Spark
+##### In This project I'm building an ETL pipeline with Spark, populating a database designed for analysing song plays from an fictional music streaming app called Sparkify. The project was made during my Udacity Nano Degree Course in Data Engineering. 
+
+### Summary - Building a Data Lake with Spark
 - Launched an AWS EMR cluster with Spark preinstalled
 - Created an ETL pipeline with PySpark
 - Created 1 fact and 4 dimension tables loaded back into S3 as parquet files.
