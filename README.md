@@ -1,6 +1,6 @@
 ## Summary
 
-##### This project demonstrates an ETL pipeline with Spark, populating a database designed for analysing song plays from an fictional music streaming app called Sparkify. The project was made during my Udacity Nano Degree Course in Data Engineering. 
+##### This project demonstrates an ETL pipeline with Spark, populating a database designed for analysing song plays from a fictional music streaming app called Sparkify. The project was made during my Udacity Nano Degree Course in Data Engineering. 
 
 ### Building a Data Lake with Spark
 - Launched an AWS EMR cluster with Spark preinstalled
